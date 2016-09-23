@@ -1,6 +1,6 @@
 # Luvit Dockerfile Example
 
-> Example [luvit.io](https://luvit.io) application with Dockerfile that can be deployed to [Zeit](https://zeit.co).
+> Example [luvit.io](https://luvit.io) application with Dockerfile support (can be deployed via [Zeit](https://zeit.co/now) - https://luvit-dockerfile-example.now.sh).
 
 ```bash
 lit install
