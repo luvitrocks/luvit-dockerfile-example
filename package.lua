@@ -4,7 +4,8 @@ return {
   dependencies = {
     'voronianski/utopia',
     'voronianski/favicon',
-    'voronianski/logger'
+    'voronianski/logger',
+    'voronianski/static'
   },
   files = {
     '**.lua',
