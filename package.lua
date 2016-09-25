@@ -3,7 +3,8 @@ return {
   version = '1.0.0',
   dependencies = {
     'voronianski/utopia',
-    'voronianski/favicon'
+    'voronianski/favicon',
+    'voronianski/logger'
   },
   files = {
     '**.lua',
