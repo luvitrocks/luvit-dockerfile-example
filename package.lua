@@ -5,7 +5,8 @@ return {
     'voronianski/utopia',
     'voronianski/favicon',
     'voronianski/logger',
-    'voronianski/static'
+    'voronianski/static',
+    'voronianski/request-query'
   },
   files = {
     '**.lua',
