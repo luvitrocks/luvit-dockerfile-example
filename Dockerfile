@@ -1,5 +1,6 @@
 FROM ubuntu:14.04
 
+LABEL luvit-dockerfile-example
 MAINTAINER Dmitri Voronianski <dmitri.voronianski@gmail.com>
 
 RUN apt-get update -qq
