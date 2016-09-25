@@ -1,4 +1,4 @@
-FROM ubuntu:latest
+FROM ubuntu:14.04
 
 MAINTAINER Dmitri Voronianski <dmitri.voronianski@gmail.com>
 
