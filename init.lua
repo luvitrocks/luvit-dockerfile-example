@@ -23,6 +23,5 @@ app:use(requestQuery)
 app:use(customMiddleware)
 app:use(static(path.join(__dirname, 'public')))
 
-app:listen(port, function ()
-  print('Server started at localhost:' .. port)
-end)
+app:listen(port)
+print('Server started at localhost:' .. port)
