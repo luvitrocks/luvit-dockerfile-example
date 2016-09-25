@@ -1,4 +1,4 @@
-FROM ubuntu:14.04
+FROM ubuntu:lucid
 
 MAINTAINER Dmitri Voronianski <dmitri.voronianski@gmail.com>
 
