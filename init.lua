@@ -17,9 +17,14 @@ function customMiddleware (req, res, nxt)
   end
 end
 
+function pathMiddleware (req, res)
+  res:finish('Bar')
+end
+
 app:use(logger('short'))
 app:use(favicon())
 app:use(requestQuery)
+app:use('/foo', pathMiddleware)
 app:use(customMiddleware)
 app:use(static(path.join(__dirname, 'public')))
 
