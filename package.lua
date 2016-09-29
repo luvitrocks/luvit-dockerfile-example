@@ -7,6 +7,7 @@ return {
     'voronianski/logger',
     'voronianski/static',
     'voronianski/request-query'
+    'voronianski/directory'
   },
   files = {
     '**.lua',
