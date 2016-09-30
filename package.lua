@@ -6,7 +6,7 @@ return {
     'voronianski/favicon',
     'voronianski/logger',
     'voronianski/static',
-    'voronianski/request-query'
+    'voronianski/request-query',
     'voronianski/directory'
   },
   files = {
