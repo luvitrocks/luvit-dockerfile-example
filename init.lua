@@ -5,6 +5,9 @@ local logger = require('logger')
 local static = require('static')
 local requestQuery = require('request-query')
 local directory = require('directory')
+local cors = require('cors')
+local jsonResponse = require('json-response')
+local _ = require('utopia-route')
 
 local __dirname = module.dir
 local app = Utopia:new()
@@ -24,8 +27,13 @@ function pathMiddleware (req, res)
 end
 
 app:use(logger('short'))
+app:use(cors())
+app:use(jsonResponse({indent = 2}))
 app:use(favicon())
 app:use(requestQuery)
+app:use(_.get('/json/:id', function (req, res)
+  res:json({foo = 'bar', id = req.params.id})
+end))
 app:use('/foo', pathMiddleware)
 app:use(customMiddleware)
 app:use(directory(publicDir))

@@ -6,8 +6,11 @@ return {
     'voronianski/favicon',
     'voronianski/logger',
     'voronianski/static',
-    'voronianski/request-query',
-    'voronianski/directory'
+    'voronianski/request-query'
+    'voronianski/directory',
+    'voronianski/cors',
+    'voronianski/json-response',
+    'voronianski/utopia-route'
   },
   files = {
     '**.lua',
